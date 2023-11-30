@@ -4,7 +4,7 @@ import streamlit as st
 
 car_data = pd.read_csv('vehicles.csv') # lendo os dados
 # criar o header da página
-st.header('Análise Gráfica de Dados: Anúncios de Vendas de Carros', divider='rainbow')
+st.header('Análise Gráfica de Dados: Anúncios de Vendas de Carros', divider="rainbow")
 
 # Criando radio buttons
 selected_chart = st.radio('Selecione o tipo de gráfico:', ['Histograma', 'Gráfico de Dispersão'])
